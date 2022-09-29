@@ -6,13 +6,13 @@ const Equipment = props => {
     return (
         <div className='equipment-component'>
             <img src={img} alt="" />
-            <div>
-                <p className='title'>{name}</p>
+            <div className='equipment-info m-2'>
+                <h2>{name}</h2>
                 <p>{body.slice(0, 80)}...</p>
                 <p className='for-age'>For-Age : {Forage}</p>
                 <p className='time'>Time : {time}s</p>
             </div>
-            <button  className='btn-cart'>
+            <button  className='btn-cart text-sm'>
                 <p>Add to list</p>
             </button>
         </div>

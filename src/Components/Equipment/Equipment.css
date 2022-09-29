@@ -1,6 +1,6 @@
 .equipment-component{
     position: relative;
-    height: 570;
+    height: 650px;
     background-color:white;
     
 }
@@ -10,13 +10,12 @@
     border-radius: 10px;
     margin: 7px;
 }
-.equipment-component .title{
-    font-size: 25px;
-}
+
+
 .equipment-component p{
-    margin: 7px;
+    margin: 7px; 
     
-}
+ }
 .equipment-component .for-age{
     font-size: 18px;
 }

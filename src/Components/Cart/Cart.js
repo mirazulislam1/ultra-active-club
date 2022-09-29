@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import {ToastContainer,toast} from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import './Cart.css'
 import logo from '../Cart/mark.png'
 
@@ -17,6 +19,10 @@ const Cart = (props) => {
     const[breakTime, setBreakTime] = useState('0');
     const clickBtn = (time) =>{
         setBreakTime(time)
+    }
+    
+        const notify = ()=>{
+            toast('hellow')
     }
     return (
         <div className=' cart-container m-4'>
@@ -62,9 +68,10 @@ const Cart = (props) => {
                 <p>{breakTime} seconds</p>
                 </div>
             </section>
-            <button  className='w-100 border border-0 rounded-4 pt-2 active-btn '>
+            <button onClick={notify} className='w-100 border border-0 rounded-4 pt-2 active-btn '>
                 <p className='fs-5 text-white'>Activity Completed</p>
             </button>
+            <ToastContainer />
            </div> 
         
     );

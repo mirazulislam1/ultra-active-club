@@ -22,7 +22,7 @@ const Cart = (props) => {
     }
     
         const notify = ()=>{
-            toast('hellow')
+            toast('Congratulation done your activities')
     }
     return (
         <div className=' cart-container m-4'>

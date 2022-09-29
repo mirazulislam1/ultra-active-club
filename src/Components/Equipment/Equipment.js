@@ -7,7 +7,7 @@ const Equipment = ({clickHandler,equipment}) => {
         
         
   <div class="col">
-    <div class="card border border-0">
+    <div class="card border border-0 shadow">
       <img src={img} class="card-img-top" alt="..."/>
       <div class="card-body">
         <h5 class="card-title">{name}</h5>

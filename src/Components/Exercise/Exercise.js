@@ -10,11 +10,18 @@ const Exercise = () => {
     }, [])
     return (
         <div className='exercise'>
-            <div className='exercise-container'>
-            {
-                equipments.map(equipment => <Equipment equipment={equipment}></Equipment>)
-            }
-            </div>
+           <div>
+          <div className='head-container'>
+            <h1 className='header'>New-Power-House-GYM</h1>
+            <h3>Selected today's exercise</h3>
+          </div>
+           <div className='exercise-container'>
+            
+           {
+               equipments.map(equipment => <Equipment equipment={equipment}></Equipment>)
+           }
+           </div>
+           </div>
             <div className='cart-container'>
             <h1>add a break</h1>
             </div>

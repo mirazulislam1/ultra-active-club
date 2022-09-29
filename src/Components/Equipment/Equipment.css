@@ -1,5 +1,8 @@
 .equipment-component{
     border: 2px solid olive;
+    position: relative;
+    height: 570px;
+    
 }
    
 
@@ -20,4 +23,15 @@
 }
 .equipment-component .time{
     font-size: 18px;
+}
+.btn-cart{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    border-radius: 8px;
+    background-color: deeppink;
+    color: azure;  
+}
+.btn-cart:hover{
+    background-color:blue ;
 }

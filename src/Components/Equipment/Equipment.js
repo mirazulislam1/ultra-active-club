@@ -11,6 +11,9 @@ const Equipment = props => {
                 <p className='for-age'>For-Age : {Forage}</p>
                 <p className='time'>Time : {time}s</p>
             </div>
+            <button className='btn-cart'>
+                <p>Add to list</p>
+            </button>
         </div>
     );
 };

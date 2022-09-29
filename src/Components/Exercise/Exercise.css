@@ -1,3 +1,9 @@
+.head-container{
+    margin: 50px;
+}
+.head-container .header{
+    color:deeppink;
+}
 .exercise{
     display: grid;
     grid-template-columns: 4fr 1fr;

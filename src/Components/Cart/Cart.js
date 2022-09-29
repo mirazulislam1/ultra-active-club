@@ -1,9 +1,17 @@
 import React from 'react';
 import './Cart.css'
 import logo from '../Cart/mark.png'
-const Cart = () => {
+const Cart = (props) => {
+    // console.log(props)
+    const {cart} = props;
+    let totalTime = 0;
+    for(const equipment of cart){
+         totalTime = totalTime + equipment.time;
+        //  console.log(totalTime)
+
+    }
     return (
-        <div className=' m-4'>
+        <div className=' cart-container m-4'>
            <div className='d-flex justify-content-center align-items-center'>
                 <div><img className='w-75' src={logo} alt="" /></div>
                <div> 
@@ -37,11 +45,18 @@ const Cart = () => {
             </section>
             <section className='mt-4'>
                 <h2 className='fs-4 mb-3'>Exercise Details</h2>
-                <div>
-                <h3>Exercise Time</h3>
-                <p>200 seconds</p>
+                <div className='d-flex justify-content-between exercise-time mb-4 p-2'>
+                <h3 className='fs-5'>Exercise time</h3>
+                <p>{totalTime} seconds</p>
+                </div>
+                <div className='d-flex justify-content-between exercise-time mb-4 p-2'>
+                <h3 className='fs-5'>Break time</h3>
+                <p> seconds</p>
                 </div>
             </section>
+            <button className='w-100 border border-0 rounded-4 pt-2 active-btn'>
+                <p className='fs-5 text-white'>Activity Completed</p>
+            </button>
            </div> 
         
     );

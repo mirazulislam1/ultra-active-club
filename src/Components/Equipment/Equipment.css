@@ -1,36 +1,6 @@
-.equipment-component{
-    position: relative;
-    height: 650px;
-    background-color:white;
-    
-}
-.equipment-component img{
-    width: 300px;
-    height: 300px;
-    border-radius: 10px;
-    margin: 7px;
-}
 
-
-.equipment-component p{
-    margin: 7px; 
-    
- }
-.equipment-component .for-age{
-    font-size: 18px;
-}
-.equipment-component .time{
-    font-size: 18px;
-}
 .btn-cart{
     width: 100%;
-    position: absolute;
-    bottom: 0;
-    border-radius: 8px;
-    background-color: deeppink;
-    color: azure;
-    border: none;  
-}
-.btn-cart:hover{
-    background-color:blue ;
+  
+    
 }

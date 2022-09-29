@@ -1,0 +1,23 @@
+.equipment-component{
+    border: 2px solid olive;
+}
+   
+
+.equipment-component img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 7px;
+}
+.equipment-component .title{
+    font-size: 25px;
+}
+.equipment-component p{
+    margin: 7px;
+}
+.equipment-component .for-age{
+    font-size: 18px;
+}
+.equipment-component .time{
+    font-size: 18px;
+}

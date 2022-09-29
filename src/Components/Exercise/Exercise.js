@@ -5,7 +5,8 @@ import logo from '../Exercise/exercise.png'
 import './Exercise.css'
 const Exercise = () => {
     const [equipments,setEquipments] = useState([]);
-    const [cart, setCart] = useState([])
+    const [cart, setCart] = useState([]);
+    
     useEffect( ()=>{
         fetch('exercise.json')
         .then(res =>res.json())
@@ -16,6 +17,7 @@ const Exercise = () => {
         const newCart = [...cart, equipment]
         setCart(newCart)
     }
+    
     return (
       
         <div className='head-container'>

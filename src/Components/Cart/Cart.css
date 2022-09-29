@@ -1,0 +1,9 @@
+.cart{
+    position: sticky;
+    top: 0%;
+    margin: 10px;
+    display: flex;
+}
+.cart img {
+    width: 60px;
+}

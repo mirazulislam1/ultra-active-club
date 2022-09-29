@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Cart from '../Cart/Cart';
 import Equipment from '../Equipment/Equipment';
 import './Exercise.css'
 const Exercise = () => {
@@ -8,6 +9,9 @@ const Exercise = () => {
         .then(res =>res.json())
         .then(data =>setEquipments(data))
     }, [])
+    const clickHandler = (equipment) =>{
+        console.log(equipment)
+    }
     return (
         <div className='exercise'>
            <div>
@@ -18,12 +22,12 @@ const Exercise = () => {
            <div className='exercise-container'>
             
            {
-               equipments.map(equipment => <Equipment equipment={equipment}></Equipment>)
+               equipments.map(equipment => <Equipment equipment={equipment} clickHandler={clickHandler}></Equipment>)
            }
            </div>
            </div>
             <div className='cart-container'>
-            <h1>add a break</h1>
+                <Cart></Cart>
             </div>
         </div>
     );

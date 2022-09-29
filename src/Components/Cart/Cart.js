@@ -40,7 +40,7 @@ const Cart = (props) => {
                 <div><button className='border border-0 rounded-4 bg-white'>20s</button></div>
                 <div><button className='border border-0 rounded-4 bg-white'>30s</button></div>
                 <div><button className='border border-0 rounded-4 bg-white'>40s</button></div>
-                <div><button className='hover:text-primary border border-0 rounded-4 bg-white'>50s</button></div>
+                <div><button className='border border-0 rounded-4 bg-white'>50s</button></div>
                 </div>
             </section>
             <section className='mt-4'>
@@ -54,7 +54,7 @@ const Cart = (props) => {
                 <p> seconds</p>
                 </div>
             </section>
-            <button className='w-100 border border-0 rounded-4 pt-2 active-btn'>
+            <button  className='w-100 border border-0 rounded-4 pt-2 active-btn'>
                 <p className='fs-5 text-white'>Activity Completed</p>
             </button>
            </div> 

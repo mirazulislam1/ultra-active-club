@@ -1,0 +1,44 @@
+[
+    {
+        "img":"https://www.helpguide.org/wp-content/uploads/woman-exercising-on-yoga-mat.jpg",
+        "name":"The Mental Health Benefits of Exercise",
+        "body":"Exercise is not just about aerobic capacity and muscle size. Sure, exercise can improve your physical health and your physique, trim your waistline, improve your sex life, and even add years to your life. But that’s not what motivates most people to stay active.",
+        "For-age":20,
+        "time":25
+    },
+    {
+        "img":"https://www.helpguide.org/wp-content/uploads/resistance-band-woman-doing-leg-workout-768.jpg",
+        "name":"How to Start Exercising and Stick to It",
+        "body":"Whether you’re working at home, traveling, or social distancing, it isn’t always possible to get to the gym. But these tips can help you stay active and healthy whatever your circumstances.",
+        "For-age":25,
+        "time":30
+    },
+    {
+        "img":"https://www.helpguide.org/wp-content/uploads/young-woman-running-along-sidewalk-175.jpg",
+        "name":"Best Exercises for Health and Weight Loss",
+        "body":"You already know that exercise is good for your body. But did you know it can also boost your mood, improve your sleep, and help you deal with depression, anxiety, stress, and more?",
+        "For-age":25,
+        "time":25
+    },
+    {
+        "img":"https://www.helpguide.org/wp-content/uploads/man-in-wheelchair-exercising-175.jpg",
+        "name":"How to Exercise with Limited Mobility",
+        "body":"Think a single type of exercise will take care of all your needs? These tips can help you build a comprehensive fitness plan to improve your health and waistline.",
+        "For-age":20,
+        "time":60
+    },
+    {
+        "img":"https://www.helpguide.org/wp-content/uploads/women-practicing-yoga-poses-175.jpg",
+        "name":"Senior Exercise and Fitness Tips",
+        "body":"Don’t let injury, disability, illness, or weight problems get in the way. These chair exercises and other simple fitness tips can keep you active and improve your health and well-being.",
+        "For-age":30,
+        "time":45
+    },
+    {
+        "img":"https://i0.wp.com/post.healthline.com/wp-content/uploads/2022/07/Females-exercise-outside-1296x728-header-1296x729.jpg?w=1155&h=2268",
+        "name":"Weekend warriors",
+        "body":"Weekend Warriors May Get Same Overall Health Benefits as Regular Exercisers",
+        "For-age":25,
+        "time":1200
+    }    
+]
